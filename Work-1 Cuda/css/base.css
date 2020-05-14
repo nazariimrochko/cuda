@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 120px 20px;
+}
+.title{
+  margin-bottom: 80px;
+}
+.subject {
+  display: block;
+  padding-bottom: 20px;
+  position: relative;
+  font-size: 42px;
+  font-weight: 600;
+  word-spacing: 8px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subject::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #6B6B6B;
+  opacity: 0.3;
+}
+.subtitle{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+}
+.black {
+  color: #3C4761;
+}
+.wite{
+  color: #FFFFFF;
+}
+
+.button__item{
+  display: block;
+  margin: 0 auto;
+  padding: 25px;
+  width: 300px;
+  height: 70px;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  transition: .2s ease-in-out;
+}
+
+.button__item:active {
+  transform: translate(-2px, 5px);
+  transition: all .3s ease-in-out;
+}
+.green:active {
+  box-shadow: 0 0 0 #20A48C, inset 0 0 5px #20A48C;
+}

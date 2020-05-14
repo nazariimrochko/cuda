@@ -1,0 +1,417 @@
+/*--------------1024px ----------*/
+@media screen and (max-width: 1140px) {
+  /* header */
+  .container {
+    width: 100%;
+    max-width: 1024px;
+  }
+
+  .header-heading {
+    font-size: 40px;
+  }
+
+  .header-fixed {
+    padding: 20px 30px;
+  }
+
+  /*---section 3---*/
+  .contact__box {
+
+  }
+
+  .contact-card {
+    width: 25%;
+  }
+
+  /*--4 section - portfolio--*/
+  .portfolio-box__block {
+    flex: 0 420px;
+    margin-bottom: 40px;
+  }
+
+  .portfolio-box__block {
+    padding: 0 10px;
+  }
+
+  .portfolio-box__img {
+    max-width: 420px;
+    margin-bottom: 20px;
+  }
+  .footer{
+    padding: 50px 180px;
+  }
+}
+
+/* ---------------------------------wrap 960px ---------------------------*/
+@media screen and (max-width: 992px) {
+  /*--- header-- */
+  .container {
+    max-width: 960px;
+  }
+
+  .header-heading {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  /*---main---*/
+  .button__item {
+    padding: 2px;
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+    border-radius: 3px;
+  }
+
+  /*------------section 1-------------*/
+  .title {
+    margin-bottom: 60px;
+  }
+
+  .subject {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .subject::before {
+    width: 70px;
+  }
+
+  .subtitle {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+
+  .services-box {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 750px;
+  }
+  .services-img {
+    margin-bottom: 50px;
+    height: 115px;
+  }
+
+  .services-img__item {
+    width: 85px;
+  }
+  .services-card__title {
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .services-card__text {
+    margin: 0 10px;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  /*--------------section 2------------*/
+  .contact__box {
+    flex-wrap: wrap;
+    max-width: 650px;
+  }
+
+  .contact-card {
+    padding: 15px 5px;
+    min-width: 200px;
+    margin-right: 20px;
+  }
+
+  .contact-card__item {
+    margin: 0 auto 30px auto;
+    width: 150px;
+    height: 150px;
+  }
+
+  .contact-card__title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .contact-card__nav {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+
+  .contact-card__nav:hover {
+    font-size: 16px;
+  }
+
+  .contact-card__text {
+    min-width: 155px;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0 9px 22px 9px;
+  }
+
+  .card-img__socseti {
+    width: 35px;
+  }
+
+  /*----------------section 3-----------*/
+  .skils-wrap {
+    flex-wrap: wrap;
+    max-width: 700px;
+  }
+
+  .skils-card {
+    min-width: 235px;
+    margin: 20px 10px;
+  }
+
+  .skils-card__numer {
+    font-size: 42px;
+  }
+
+  .skils-card__title {
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #B3EAE2;
+    display: block;
+    border-radius: 15px;
+  }
+
+  /*-------------section 4-------------*/
+  .portfolio-box {
+    max-width: 500px;
+  }
+
+  .portfolio-box__title {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  /*-------------section 5-------------*/
+  .cards-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .card{
+    max-width: 680px;
+    min-width: 550px;
+  }
+
+  .card__text{
+    margin-right: 40px;
+    font-size: 18px;
+  }
+  .card__title{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /*-------------section 6-------------*/
+  .card__name {
+    max-width: 250px;
+    height: 45px;
+  }
+
+  .card__name:nth-child(1) {
+    margin-right: 5px;
+  }
+  .card__name:nth-child(2) {
+    margin-left: 5px;
+  }
+
+  .card__comment{
+    width:660px ;
+  }
+  /*-------------footer-------------*/
+  .footer{
+    padding: 40px 150px ;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 150px;
+  }
+  .pagination__btn{
+    font-size: 20px;
+    margin-left: 10px;
+
+  }
+}
+/*---------------------------------- wrap 768px --------------------------*/
+@media screen and (max-width: 767px) {
+  /* header */
+  .container {
+    max-width: 720px;
+    padding: 70px 20px;
+  }
+  .header-heading {
+    font-size: 25px;
+  }
+}
+/*---------------------------------- wrap 580px --------------------------*/
+@media screen and (max-width: 578px) {
+  /* header */
+  .container {
+    max-width: 660px;
+    padding: 50px 15px;
+  }
+  .header-heading {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  /*---main---*/
+  .button__item {
+    width: 220px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .title {
+    margin-bottom: 40px;
+  }
+
+  .subject {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .subject::before {
+    width: 50px;
+  }
+
+  .subtitle {
+    margin-top: 14px;
+    font-size: 14px;
+  }
+  /*------------section 1-------------*/
+  .services-box {
+    flex-wrap: wrap;
+    max-width: 550px;
+  }
+
+  .services-card {
+    flex-basis:  calc(25% - 20px) ;
+    min-width: 220px;
+    padding: 7px ;
+    text-align: center;
+    color: #ffffff;
+  }
+  .services-img {
+    margin-bottom: 40px;
+    height: 105px;
+  }
+  .services-img__item {
+    align-items: center;
+    width: 70px;
+  }
+
+  .services-card__title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .services-card__text {
+    margin: 0 7px;
+    font-size: 14px;
+  }
+
+
+  /*--------------section 2------------*/
+  .contact__box {
+    flex-wrap: wrap;
+    max-width: 650px;
+  }
+
+  .contact-card {
+    margin-right: 15px;
+  }
+
+  .contact-card__item {
+    margin: 0 auto 25px auto;
+    width: 140px;
+    height: 140px;
+  }
+  .contact-card__title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+
+  /*----------------section 3-----------*/
+  .skils-wrap {
+    flex-wrap: wrap;
+    max-width: 700px;
+  }
+
+  .skils-card {
+    min-width: 200px;
+    margin: 15px 5px;
+  }
+
+  .skils-card__numer {
+    font-size: 38px;
+  }
+
+  .skils-card__title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+  /*-------------section 4-------------*/
+  .portfolio-box {
+    max-width: 500px;
+  }
+  .portfolio-box__img {
+    max-width: 360px;
+    margin-bottom: 20px
+  }
+  .portfolio-box__title {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+  /*-------------section 5-------------*/
+
+  .card{
+    max-width: 570px;
+    min-width: 400px;
+  }
+
+  .card__text{
+    margin-right: 30px;
+    font-size: 16px;
+  }
+  .card__title{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  /*-------------section 6-------------*/
+  .card__name {
+    max-width: 250px;
+    height: 45px;
+  }
+
+  .card__name:nth-child(1) {
+    margin: 5px;
+  }
+  .card__name:nth-child(2) {
+    margin: 5px;
+  }
+
+  .card__comment{
+    width:660px ;
+  }
+  /*-------------footer-------------*/
+  .footer{
+    padding: 30px 40px ;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 150px;
+  }
+  .pagination__btn{
+    font-size: 17px;
+    margin-left: 7px;
+
+  }
+}
